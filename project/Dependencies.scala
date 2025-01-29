@@ -28,7 +28,7 @@ object Dependencies {
     "io.reactivex" %% "rxscala" % "0.27.0",
     "org.scalatest" %% "scalatest" % "3.2.19" % Test,
     "org.parboiled" %% "parboiled" % "2.5.1",
-    "org.typelevel" %% "cats-core" % "2.12.0",
+    "org.typelevel" %% "cats-core" % "2.13.0",
     "org.mockito" %% "mockito-scala" % "1.17.37" % Test
   )
 
@@ -65,7 +65,7 @@ object Dependencies {
     commonDeps ++ jacksonOverrides ++ Seq(
       evolutions,
       jdbc,
-      "com.gu.play-googleauth" %% "play-v30" % "19.0.0",
+      "com.gu.play-googleauth" %% "play-v30" % "19.0.1",
       "com.gu.play-secret-rotation" %% "play-v30" % "13.1.2",
       "com.gu.play-secret-rotation" %% "aws-parameterstore-sdk-v2" % "13.1.2",
       "org.pegdown" % "pegdown" % "1.6.0",
@@ -73,7 +73,7 @@ object Dependencies {
       "org.scanamo" %% "scanamo" % "3.0.0",
       "software.amazon.awssdk" % "dynamodb" % Versions.aws,
       "software.amazon.awssdk" % "sns" % Versions.aws,
-      "org.quartz-scheduler" % "quartz" % "2.3.2",
+      "org.quartz-scheduler" % "quartz" % "2.5.0",
       "com.gu" %% "anghammarad-client" % "4.0.0",
       "org.webjars" %% "webjars-play" % "3.0.2",
       "org.webjars" % "jquery" % "3.7.1",
@@ -87,7 +87,7 @@ object Dependencies {
       "com.beachape" %% "enumeratum-play" % Versions.enumeratumPlay,
       filters,
       ws,
-      "org.apache.pekko" %% "pekko-testkit" % "1.0.3" % Test,
+      "org.apache.pekko" %% "pekko-testkit" % "1.1.3" % Test,
       "com.amazonaws" % "aws-java-sdk-rds" % Versions.awsRds,
       "org.scala-stm" %% "scala-stm" % "0.11.1",
       // Play 3.0 currently uses logback-classic 1.4.11 which is vulnerable to CVE-2023-45960
