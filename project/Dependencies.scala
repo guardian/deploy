@@ -48,8 +48,6 @@ object Dependencies {
       "com.gu" %% "fastly-api-client" % "1.0.1",
       "com.fasterxml.jackson.dataformat" % "jackson-dataformat-yaml" % Versions.jackson,
       "com.beachape" %% "enumeratum-play-json" % Versions.enumeratumPlay,
-      "com.google.apis" % "google-api-services-deploymentmanager" % "v2-rev20250102-2.0.0",
-      "com.google.cloud" % "google-cloud-storage" % "2.47.0",
       "org.scala-lang.modules" %% "scala-parallel-collections" % "1.2.0"
     ).map((m: ModuleID) =>
       // don't even ask why I need to do this
